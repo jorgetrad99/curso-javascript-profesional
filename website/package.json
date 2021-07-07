@@ -1,0 +1,23 @@
+{
+  "name": "curso-javascript-profesional",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jorgetrad99/curso-javascript-profesional.git"
+  },
+  "keywords": [],
+  "author": "Jorge Trad <jetradl@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jorgetrad99/curso-javascript-profesional/issues"
+  },
+  "homepage": "https://github.com/jorgetrad99/curso-javascript-profesional#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
