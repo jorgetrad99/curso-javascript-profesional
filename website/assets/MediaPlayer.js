@@ -2,14 +2,20 @@ function MediaPlayer(config) {
   this.media = config.el;
 }
 
-MediaPlayer.prototype.play = function () {
+MediaPlayer.prototype.play = function() {
   this.media.play();
-  state = true;
 };
 
-MediaPlayer.prototype.pause = function () {
+MediaPlayer.prototype.pause = function() {
   this.media.pause();
-  state = false;
+};
+
+MediaPlayer.prototype.togglePlay = function() {
+  if (this.media.paused) {
+    this.play();
+  } else {
+    this.pause();
+  }
 };
 
 export default MediaPlayer;

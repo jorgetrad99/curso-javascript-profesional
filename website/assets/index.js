@@ -1,12 +1,7 @@
-import MediaPlayer from "./MediaPlayer";
+import MediaPlayer from './MediaPlayer.js';
 
-const video = document.querySelector("video");
-const button = document.querySelector("button");
-
-let state = false;
-
+const video = document.querySelector('video');
 const player = new MediaPlayer({ el: video });
 
-button.onclick = () => {
-  state ? player.pause() : player.play();
-};
+const button = document.querySelector('button');
+button.onclick = () => player.togglePlay();
