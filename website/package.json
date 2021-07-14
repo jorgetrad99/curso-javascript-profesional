@@ -1,27 +1,20 @@
 {
-  "name": "curso-javascript-profesional",
+  "name": "platzi-media-player",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Proyecto del Curso Profesional de JavaScript de la Escuela de JavaScript de Platzi.",
+  "license": "MIT",
+  "author": "Jorge Trad <jetradl@gmail.com>",
+  "keywords": [
+    "platzi"
+  ],
   "scripts": {
     "start": "parcel index.html ejercicios/index.html ejercicios/**/*.html"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jorgetrad99/curso-javascript-profesional.git"
-  },
-  "keywords": [],
-  "author": "Jorge Trad <jetradl@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/jorgetrad99/curso-javascript-profesional/issues"
-  },
-  "homepage": "https://github.com/jorgetrad99/curso-javascript-profesional#readme",
   "devDependencies": {
     "parcel-bundler": "^1.12.3",
-    "typescript": "^4.3.5"
+    "typescript": "^3.5.3"
   },
   "browserslist": [
-    "last 1 chrome version"
+    "last 1 Chrome version"
   ]
 }
