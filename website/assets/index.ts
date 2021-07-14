@@ -1,7 +1,7 @@
-import MediaPlayer from './MediaPlayer';
-import AutoPlay from './plugins/AutoPlay';
-import AutoPause from './plugins/AutoPause';
-import Ads from './plugins/Ads';
+import MediaPlayer from '@jamrode/platzimediaplayer';
+import AutoPlay from '@jamrode/platzimediaplayer/lib/plugins/AutoPlay';
+import AutoPause from '@jamrode/platzimediaplayer/lib/plugins/AutoPause';
+import Ads from '@jamrode/platzimediaplayer/lib/plugins/Ads';
 
 const video = document.querySelector('video');
 const player = new MediaPlayer({

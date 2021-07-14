@@ -16,5 +16,8 @@
   },
   "browserslist": [
     "last 1 Chrome version"
-  ]
+  ],
+  "dependencies": {
+    "@jamrode/platzimediaplayer": "^1.0.0"
+  }
 }
